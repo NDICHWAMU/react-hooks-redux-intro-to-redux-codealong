@@ -10,7 +10,7 @@ function counterReducer(state = initialState, action) {
 
       return {
         ...state,
-        items: state.items.concat(state.items.length + 1),
+        items: state.items.concat(state.items.length + 2),
       }
     case "count/decrement":
       return {

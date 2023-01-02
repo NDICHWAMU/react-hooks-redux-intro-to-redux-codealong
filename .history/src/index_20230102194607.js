@@ -6,11 +6,7 @@ import counterReducer from "./features/counter/counterSlice.js";
 import App from "./App";
 import "./index.css";
 
-// const store = createStore(counterReducer);
-const store = createStore(
-  counterReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-); /* code change to include chrom redux devTools*/
+const store = createStore(counterReducer);
 ReactDOM.render(
   <Provider store={store}>
     <App />

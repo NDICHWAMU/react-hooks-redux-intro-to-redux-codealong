@@ -15,13 +15,13 @@ function Counter() {
 
   function handleMinusClick() {
     // dispatching an action on click
-    dispatch({ type: "count/decrement" });
+    dispatch({ type: "count/increment" });
   }
 
   return (
-    <div className="container">
+    <div>
       <button onClick={handleOnClick}>Click</button>
-      <button onClick={handleMinusClick}>Minus Click</button>
+      <button onClick={handleMinusClick}>Click</button>
       <p>{items.length}</p>
     </div>
   );

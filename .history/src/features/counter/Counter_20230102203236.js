@@ -19,7 +19,7 @@ function Counter() {
   }
 
   return (
-    <div className="container">
+    <div cl>
       <button onClick={handleOnClick}>Click</button>
       <button onClick={handleMinusClick}>Minus Click</button>
       <p>{items.length}</p>

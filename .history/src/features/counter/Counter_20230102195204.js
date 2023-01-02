@@ -19,9 +19,9 @@ function Counter() {
   }
 
   return (
-    <div className="container">
+    <div>
       <button onClick={handleOnClick}>Click</button>
-      <button onClick={handleMinusClick}>Minus Click</button>
+      <button onClick={handleMinusClick}>Click</button>
       <p>{items.length}</p>
     </div>
   );
